@@ -1,6 +1,6 @@
 // File: contract/introspection/IKIP13.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.2;
 
 /**
  * @dev Interface of the KIP-13 standard, as defined in the
@@ -25,7 +25,7 @@ interface IKIP13 {
 
 // File: contract/token/KIP7/IKIP7.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.2;
 
 
 /**
@@ -128,7 +128,7 @@ contract IKIP7 is IKIP13 {
 
 // File: contract/math/SafeMath.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.2;
 
 /**
  * @dev Wrappers over Solidity's arithmetic operations with added overflow
@@ -238,7 +238,7 @@ library SafeMath {
 
 // File: contract/introspection/KIP13.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.2;
 
 
 /**
@@ -292,7 +292,7 @@ contract KIP13 is IKIP13 {
 
 // File: contract/utils/Address.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.2;
 
 /**
  * @dev Collection of functions related to the address type,
@@ -322,7 +322,7 @@ library Address {
 
 // File: contract/token/KIP7/IKIP7Receiver.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.2;
 
 /**
  * @title KIP-7 Fungible Token Standard, optional wallet interface
@@ -349,7 +349,7 @@ contract IKIP7Receiver {
 
 // File: contract/token/KIP7/KIP7.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.2;
 
 
 
@@ -614,7 +614,7 @@ contract KIP7 is KIP13, IKIP7 {
 
 // File: contract/access/Roles.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.2;
 
 /**
  * @title Roles
@@ -653,7 +653,7 @@ library Roles {
 
 // File: contract/access/roles/MinterRole.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.2;
 
 
 contract MinterRole {
@@ -698,7 +698,7 @@ contract MinterRole {
 
 // File: contract/token/KIP7/KIP7Mintable.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.2;
 
 
 
@@ -742,7 +742,7 @@ contract KIP7Mintable is KIP13, KIP7, MinterRole {
 
 // File: contract/token/KIP7/KIP7Burnable.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.2;
 
 
 
@@ -786,7 +786,7 @@ contract KIP7Burnable is KIP13, KIP7 {
 
 // File: contract/access/roles/PauserRole.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.2;
 
 
 contract PauserRole {
@@ -831,7 +831,7 @@ contract PauserRole {
 
 // File: contract/lifecycle/Pausable.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.2;
 
 
 /**
@@ -906,7 +906,7 @@ contract Pausable is PauserRole {
 
 // File: contract/token/KIP7/KIP7Pausable.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.2;
 
 
 
@@ -949,7 +949,7 @@ contract KIP7Pausable is KIP13, KIP7, Pausable {
 
 // File: contract/token/KIP7/KIP7Metadata.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.2;
 
 
 
@@ -1019,7 +1019,7 @@ contract KIP7Metadata is KIP13, IKIP7 {
 
 // File: contract/token/KIP7/KIP7Token.sol
 
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.2;
 
 
 
